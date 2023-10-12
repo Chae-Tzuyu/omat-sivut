@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juho - Tietoja minusta</title>
+    <style>
+     <link href="styles.css" rel="stylesheet"/>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        h1 {
+            animation: colorChange 5s infinite;
+            background-image: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+            -webkit-background-clip: text;
+            color: transparent;
+            display: inline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: purple; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tietoja minusta</h1>
+    </header>
+    <div class="container">
+        <h1>Kuka olen:</h1>
+        <p>Olen Juho, 16-vuotias, ja minulla on lemmikki kissa. Asun omakotitalossa Mikkelissä minun perheeseni kuuluu Isä, Äiti, ja Pikkuveli</p>
+
+        <h1>Opinnot:</h1>
+        <p>Opiskelen tieto- ja viestintätekniikkaa Esedulla, ja samalla kaksoistutkinossa.</p>
+
+        <h1>Harrastukset:</h1>
+        <p>Harrastan pelaamista. Tykkään pelata eniten fps-pelejä. Lempi pelini on rainbow six siege</p>
+
+        <h1>Työkokemus:</h1>
+        <p>Olen työskennellyt Powerissa tet-harjoitellussa yhdeksännellä luokalla.</p>
+
+        <h1>Työnäytteet:</h1>
+        <p>Tässä on kuva yhdestä työstäni: Olen tehnyt kaikki html tehtävät. <a href="https://www.freecodecamp.org/learn/">Tällä nettisivulla</a></p>
+        <a href="https://ibb.co/c81mpv4">
+            <img src="https://i.ibb.co/kDxdryN/Valokuva-png.png" alt="Valokuva-png" border="0" style="width: 300px; height: auto;" />
+        </a>
+    </div>
+</body>
+</html>
